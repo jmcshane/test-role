@@ -1,0 +1,5 @@
+---
+- hosts: me
+  tasks:
+  - name:
+    shell: echo hi
