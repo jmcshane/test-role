@@ -1,6 +1,5 @@
 ---
-- name: test
-  hosts: me
+- hosts: me
   tasks:
-  - name: test
-    shell: echo hi
+    - name: test
+      shell: echo hi
